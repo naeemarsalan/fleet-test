@@ -15,14 +15,14 @@ helm:
   # This allows one to download charts from most any location.  Also know that
   # go-getter URL supports adding a digest to validate the download. If repo
   # is set below this field is the name of the chart to lookup
-  chart: /multi-cluster/helm/
+  chart: bitnami/jenkins
   # A https URL to a Helm repo to download the chart from. It's typically easier
   # to just use `chart` field and refer to a tgz file.  If repo is used the
   # value of `chart` will be used as the chart name to lookup in the Helm repository.
-  repo: https://github.com/rancher/fleet-examples
+  repo: https://charts.bitnami.com
   # A custom release name to deploy the chart as. If not specified a release name
   # will be generated.
-  # releaseName: test
+  releaseName: jenkins
   # # The version of the chart or semver constraint of the chart to find. If a constraint
   # # is specified it is evaluated each time git changes.
   # version: 1.0.0
