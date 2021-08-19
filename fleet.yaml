@@ -19,7 +19,7 @@ helm:
   # A https URL to a Helm repo to download the chart from. It's typically easier
   # to just use `chart` field and refer to a tgz file.  If repo is used the
   # value of `chart` will be used as the chart name to lookup in the Helm repository.
-  repo: https://github.com/rancher/fleet-examples.git
+  repo: https://github.com/rancher/fleet-examples
   # A custom release name to deploy the chart as. If not specified a release name
   # will be generated.
   # releaseName: test
