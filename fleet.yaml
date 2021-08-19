@@ -22,10 +22,10 @@ helm:
   repo: https://github.com/rancher/fleet-examples.git
   # A custom release name to deploy the chart as. If not specified a release name
   # will be generated.
-  releaseName: test
-  # The version of the chart or semver constraint of the chart to find. If a constraint
-  # is specified it is evaluated each time git changes.
-  version: 1.0.0
+  # releaseName: test
+  # # The version of the chart or semver constraint of the chart to find. If a constraint
+  # # is specified it is evaluated each time git changes.
+  # version: 1.0.0
   # Any values that should be placed in the `values.yaml` and passed to helm during
   # install.
   #values:
